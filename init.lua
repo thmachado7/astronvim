@@ -21,3 +21,5 @@ if astronvim.default_colorscheme then
 end
 
 require("astronvim.utils").conditional_func(astronvim.user_opts("polish", nil, false), true)
+
+vim.g.copilot_assume_mapped = true
